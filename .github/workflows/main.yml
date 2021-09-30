@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: hfaivre/hello-world-js-action@v1.2
+        uses: hfaivre/hello-world-js-action@v1.3
         with:
-          hello: 'Tests required input'
+          hello: 'Tests required input with v1.3'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
