@@ -9,7 +9,7 @@ jobs:
         id: hello
         uses: hfaivre/hello-world-js-action@v1.2
         with:
-          hello: 'Homy Roamy'
+          hello: 'Tests required input'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
