@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run Datadog Synthetics tests
-        uses: hfaivre/synthetics-ci-github-action-1@3f160e57b721719810e4855ca11cf9771b557802
+        uses: hfaivre/synthetics-ci-github-action-1@1927d59ef15b715cd85915d571c5a74cf0832704
         with:
           api_key: ${{secrets.DD_API_KEY}}
           app_key: ${{secrets.DD_APP_KEY}}
