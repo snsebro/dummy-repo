@@ -5,7 +5,7 @@
         "locations": ["aws:us-west-1"],
         "retry": { "count": 2, "interval": 300 },
         "startUrl": "{{URL}}?static_hash=foobar",
-        "pollingTimeout": 180000
+        "pollingTimeout": 180001
     }
 }
 
