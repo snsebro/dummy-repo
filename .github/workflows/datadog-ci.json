@@ -3,7 +3,7 @@
     "files": "{,!(node_modules)/**/}*.synthetics.json",
     "global": {
         "locations": ["aws:us-west-1"],
-        "retry": { "count": 2, "interval": 300 },
+        "retry": { "count": 2, "interval": 200 },
         "startUrl": "{{URL}}?static_hash=foobar",
         "pollingTimeout": 180001
     }
